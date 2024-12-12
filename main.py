@@ -7,7 +7,7 @@ import albumentations as A
 from albumentations.pytorch import ToTensorV2
 from yolov5facedetector.face_detector import YoloDetector
 
-from model import ImageTransformerClassifier  
+from model.model import ImageTransformerClassifier  
 
 hyper_params = {
     'num_epochs': 20,
