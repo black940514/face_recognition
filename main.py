@@ -18,7 +18,7 @@ hyper_params = {
     'print_preq': 0.1 
 }
 
-weight_path = '/Users/taeyoun/Downloads/DeepLearning/project/Image_DL_Fastcampus/Project/2-3/lion_50ep.pth'
+weight_path = 'weight_pth/best_model.pth'
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 model = ImageTransformerClassifier(num_images=5, num_classes=8)
